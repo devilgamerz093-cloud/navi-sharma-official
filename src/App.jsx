@@ -85,6 +85,35 @@ function App() {
     title="Spotify"
   ></iframe>
 </section>
+<section className="video">
+  <h2>Latest Music Video</h2>
+
+  <iframe
+    width="100%"
+    height="500"
+    src="https://www.youtube.com/embed/o2hM_8xD3XU"
+    title="Latest Song"
+    frameBorder="0"
+    allowFullScreen
+  ></iframe>
+</section>
+<section className="stats">
+  <div className="card">
+    <h3>🎵 Artist</h3>
+    <p>Independent Singer</p>
+  </div>
+
+  <div className="card">
+    <h3>▶ YouTube</h3>
+    <p>Official Channel</p>
+  </div>
+
+  <div className="card">
+    <h3>🎧 Spotify</h3>
+    <p>Listen Now</p>
+  </div>
+</section>
+
       <section className="contact">
         <h2>Contact & Booking</h2>
 
