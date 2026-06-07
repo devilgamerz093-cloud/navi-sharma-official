@@ -82,3 +82,44 @@ body{
   width:100%;
   border-radius:15px;
 }
+.latest-song {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.latest-song h2 {
+  color: gold;
+  margin-bottom: 20px;
+}
+
+.latest-song iframe {
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+}
+.contact {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.contact h2 {
+  color: gold;
+}
+
+.contact-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  border-radius: 30px;
+  background: gold;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer {
+  text-align: center;
+  padding: 25px;
+  border-top: 1px solid #333;
+  color: #aaa;
+}

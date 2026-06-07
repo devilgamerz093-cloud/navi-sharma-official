@@ -6,6 +6,7 @@ import navi3 from "./assets/navi3.jpg";
 function App() {
   return (
     <div className="app">
+
       <section className="hero">
         <img src={navi1} alt="Navi Sharma" className="hero-img" />
 
@@ -14,29 +15,70 @@ function App() {
         <p>Singer • Artist • Performer</p>
 
         <div className="buttons">
-          <a href="https://www.instagram.com/im_navisharma" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.instagram.com/im_navisharma?igsh=N2J0ZGg4ancxM21o"
+            target="_blank"
+            rel="noreferrer"
+          >
             Instagram
           </a>
 
-          <a href="https://youtube.com/channel/UCvH9wI617q8ay2hoC4AQzzA" target="_blank" rel="noreferrer">
+          <a
+            href="https://youtube.com/channel/UCvH9wI617q8ay2hoC4AQzzA?si=rhqy48WfAad49RP9"
+            target="_blank"
+            rel="noreferrer"
+          >
             YouTube
           </a>
 
-          <a href="https://open.spotify.com/artist/3AymTMbXe0rCzP19GSMBe3" target="_blank" rel="noreferrer">
+          <a
+            href="https://open.spotify.com/artist/3AymTMbXe0rCzP19GSMBe3?si=tDvch6H0RaqYq0o7EoZkhg"
+            target="_blank"
+            rel="noreferrer"
+          >
             Spotify
           </a>
         </div>
+      </section>
+
+      <section className="about">
+        <h2>About Navi Sharma</h2>
+
+        <p>
+          Navi Sharma is an independent singer and artist known for soulful
+          melodies and heartfelt performances.
+        </p>
       </section>
 
       <section className="gallery">
         <h2>Gallery</h2>
 
         <div className="gallery-grid">
-          <img src={navi1} alt="Navi 1" />
-          <img src={navi2} alt="Navi 2" />
-          <img src={navi3} alt="Navi 3" />
+          <img src={navi1} alt="Navi Sharma" />
+          <img src={navi2} alt="Navi Sharma" />
+          <img src={navi3} alt="Navi Sharma" />
         </div>
       </section>
+
+      <section className="contact">
+        <h2>Contact & Booking</h2>
+
+        <p>
+          For collaborations, live shows and business enquiries.
+        </p>
+
+        <a
+          href="mailto:your@email.com"
+          className="contact-btn"
+        >
+          Contact Me
+        </a>
+      </section>
+
+      <footer className="footer">
+        © 2026 Navi Sharma. All Rights Reserved.
+      </footer>
+
     </div>
   );
 }
