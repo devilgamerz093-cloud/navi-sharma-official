@@ -40,6 +40,7 @@ function App() {
           </a>
         </div>
       </section>
+<p>🎵 Official Artist Website 🎵</p>
 
       <section className="about">
         <h2>About Navi Sharma</h2>
