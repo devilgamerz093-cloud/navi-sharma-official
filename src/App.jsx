@@ -8,48 +8,33 @@ function App() {
     <div className="app">
       <section className="hero">
         <img src={navi1} alt="Navi Sharma" className="hero-img" />
+
         <h1>Navi Sharma</h1>
+
         <p>Singer • Artist • Performer</p>
 
         <div className="buttons">
-          <a
-            href="https://www.instagram.com/im_navisharma?igsh=N2J0ZGg4ancxM21o"
-            target="_blank"
-          >
+          <a href="https://www.instagram.com/im_navisharma" target="_blank" rel="noreferrer">
             Instagram
           </a>
 
-          <a
-            href="https://youtube.com/channel/UCvH9wI617q8ay2hoC4AQzzA?si=rhqy48WfAad49RP9"
-            target="_blank"
-          >
+          <a href="https://youtube.com/channel/UCvH9wI617q8ay2hoC4AQzzA" target="_blank" rel="noreferrer">
             YouTube
           </a>
 
-          <a
-            href="https://open.spotify.com/artist/3AymTMbXe0rCzP19GSMBe3?si=tDvch6H0RaqYq0o7EoZkhg"
-            target="_blank"
-          >
+          <a href="https://open.spotify.com/artist/3AymTMbXe0rCzP19GSMBe3" target="_blank" rel="noreferrer">
             Spotify
           </a>
         </div>
-      </section>
-
-      <section className="about">
-        <h2>About</h2>
-        <p>
-          Welcome to the official website of Navi Sharma. Follow my latest
-          music releases, videos and updates.
-        </p>
       </section>
 
       <section className="gallery">
         <h2>Gallery</h2>
 
         <div className="gallery-grid">
-          <img src={navi1} alt="" />
-          <img src={navi2} alt="" />
-          <img src={navi3} alt="" />
+          <img src={navi1} alt="Navi 1" />
+          <img src={navi2} alt="Navi 2" />
+          <img src={navi3} alt="Navi 3" />
         </div>
       </section>
     </div>
