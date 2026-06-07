@@ -59,7 +59,31 @@ function App() {
           <img src={navi3} alt="Navi Sharma" />
         </div>
       </section>
+<section className="latest-song">
+  <h2>Latest Release</h2>
 
+  <a
+    href="https://youtu.be/o2hM_8xD3XU?si=amjpMW4RrG8nKdqQ"
+    target="_blank"
+    rel="noreferrer"
+  >
+    🎵 Watch Latest Song on YouTube
+  </a>
+</section>
+<section className="spotify">
+  <h2>Listen On Spotify</h2>
+
+  <iframe
+    style={{ borderRadius: "12px" }}
+    src="https://open.spotify.com/embed/artist/3AymTMbXe0rCzP19GSMBe3"
+    width="100%"
+    height="352"
+    frameBorder="0"
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    loading="lazy"
+    title="Spotify"
+  ></iframe>
+</section>
       <section className="contact">
         <h2>Contact & Booking</h2>
 
@@ -82,5 +106,9 @@ function App() {
     </div>
   );
 }
+
+<footer className="footer">
+  © 2026 Navi Sharma. All Rights Reserved.
+</footer>
 
 export default App;
